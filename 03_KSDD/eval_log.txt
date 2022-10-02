@@ -1,2 +1,0 @@
-Running evaluation for RUN ./results_new\KSDD\ksdd1_z_new_SC_03_change08_25epoch
-RUN ksdd1_z_new_SC_03_change08_25epoch: AP:0.99366, AUC:0.99884, FP=0, FN=2, FN@.5=6, FP@.5=0, FP@FN0=7
