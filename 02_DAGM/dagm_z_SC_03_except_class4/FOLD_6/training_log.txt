@@ -1,0 +1,144 @@
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 Executing run with path ./results_new\DAGM\dagm_z_SC_03_except_class4\FOLD_6
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 AREA_RATIO_MIN            : 0.9
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 BATCH_SIZE                : 8
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 CONTINUE_LAST_TRAIN       : None
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 DATASET                   : DAGM
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 DATASET_PATH              : ./datasets/DAGM/
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 DELTA_CLS_LOSS            : 1.0
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 DILATE                    : 0
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 DROPOUT_P                 : 0.2
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 DYN_BALANCED_LOSS         : False
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 EPOCHS                    : 25
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 FOLD                      : 6
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 FREQUENCY_SAMPLING        : True
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 GPU                       : 0
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 GRADIENT_ADJUSTMENT       : False
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 INPUT_CHANNELS            : 1
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 INPUT_HEIGHT              : 512
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 INPUT_WIDTH               : 512
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 LEARNING_RATE             : 0.04
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 LOSS_SEG_THR              : 0.02
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 MEMORY_FIT                : 8
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 MODEL_NAME                : models_trans10
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 NUM_SEGMENTED             : 0
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 ON_DEMAND_READ            : False
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 OPTIMIZER                 : SGD
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 REPRODUCIBLE_RUN          : True
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 RESULTS_PATH              : ./results_new
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 SAMPLING                  : half_mixed
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 SAVE_IMAGES               : True
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 TRAIN_NUM                 : None
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 TRANS_BRIGHT              : 1.0
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 TRANS_KEEP_LOOP           : 1
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 TRANS_NUM                 : 4
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 USE_BEST_MODEL            : False
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 VALIDATE                  : True
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 VALIDATE_ON_TEST          : True
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 VALIDATION_N_EPOCHS       : 3
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 VOLUME_CFG                : None
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 WEIGHTED_SEG_LOSS         : False
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 WEIGHTED_SEG_LOSS_MAX     : 10.0
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 WEIGHTED_SEG_LOSS_P       : 1.0
+2022-09-30 00:53:05	dagm_z_SC_03_except_class4_FOLD_6 Reproducible run, fixing all seeds to:1337
+This is models_trans10
+2022-09-30 00:53:28	dagm_z_SC_03_except_class4_FOLD_6 Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-30 00:53:28	dagm_z_SC_03_except_class4_FOLD_6 Returning dec_gradient_multiplier 1
+2022-09-30 00:53:36	dagm_z_SC_03_except_class4_FOLD_6 Epoch 1/25 ==> avg_loss_seg=0.71157, avg_loss_seg_pos=0.16549, avg_loss_dec=0.63800, avg_loss=1.34957, FP=38, FN=29, correct=93/160, in 7.08s/epoch
+2022-09-30 00:53:42	dagm_z_SC_03_except_class4_FOLD_6 VALIDATION || AUC=0.999971, and AP=0.999779, with best thr=0.313546 at f-measure=0.993 and FP=1, FN=0, TOTAL SAMPLES=575, avg_loss_seg_neg=0.68203, avg_loss_seg_pos=0.58909
+2022-09-30 00:53:42	dagm_z_SC_03_except_class4_FOLD_6 Saving current models state to ./results_new\DAGM\dagm_z_SC_03_except_class4\FOLD_6\models\ep_01.pth
+2022-09-30 00:53:42	dagm_z_SC_03_except_class4_FOLD_6 Saving current models state to ./results_new\DAGM\dagm_z_SC_03_except_class4\FOLD_6\models\best_state_dict.pth
+2022-09-30 00:53:42	dagm_z_SC_03_except_class4_FOLD_6 Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-30 00:53:42	dagm_z_SC_03_except_class4_FOLD_6 Returning dec_gradient_multiplier 1
+2022-09-30 00:53:47	dagm_z_SC_03_except_class4_FOLD_6 Epoch 2/25 ==> avg_loss_seg=0.64557, avg_loss_seg_pos=0.14268, avg_loss_dec=0.43586, avg_loss=1.08144, FP=12, FN=19, correct=129/160, in 5.46s/epoch
+2022-09-30 00:53:47	dagm_z_SC_03_except_class4_FOLD_6 Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-30 00:53:47	dagm_z_SC_03_except_class4_FOLD_6 Returning dec_gradient_multiplier 1
+2022-09-30 00:53:53	dagm_z_SC_03_except_class4_FOLD_6 Epoch 3/25 ==> avg_loss_seg=0.58709, avg_loss_seg_pos=0.12937, avg_loss_dec=0.24318, avg_loss=0.83027, FP=10, FN=8, correct=142/160, in 5.48s/epoch
+2022-09-30 00:53:53	dagm_z_SC_03_except_class4_FOLD_6 Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-30 00:53:53	dagm_z_SC_03_except_class4_FOLD_6 Returning dec_gradient_multiplier 1
+2022-09-30 00:53:59	dagm_z_SC_03_except_class4_FOLD_6 Epoch 4/25 ==> avg_loss_seg=0.53412, avg_loss_seg_pos=0.12239, avg_loss_dec=0.10872, avg_loss=0.64284, FP=2, FN=3, correct=155/160, in 5.49s/epoch
+2022-09-30 00:54:04	dagm_z_SC_03_except_class4_FOLD_6 VALIDATION || AUC=1.000000, and AP=1.000000, with best thr=0.956205 at f-measure=1.000 and FP=0, FN=0, TOTAL SAMPLES=575, avg_loss_seg_neg=0.50831, avg_loss_seg_pos=0.46284
+2022-09-30 00:54:04	dagm_z_SC_03_except_class4_FOLD_6 Saving current models state to ./results_new\DAGM\dagm_z_SC_03_except_class4\FOLD_6\models\ep_04.pth
+2022-09-30 00:54:04	dagm_z_SC_03_except_class4_FOLD_6 Saving current models state to ./results_new\DAGM\dagm_z_SC_03_except_class4\FOLD_6\models\best_state_dict.pth
+2022-09-30 00:54:04	dagm_z_SC_03_except_class4_FOLD_6 Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-30 00:54:04	dagm_z_SC_03_except_class4_FOLD_6 Returning dec_gradient_multiplier 1
+2022-09-30 00:54:10	dagm_z_SC_03_except_class4_FOLD_6 Epoch 5/25 ==> avg_loss_seg=0.49133, avg_loss_seg_pos=0.11341, avg_loss_dec=0.16415, avg_loss=0.65548, FP=4, FN=4, correct=152/160, in 5.50s/epoch
+2022-09-30 00:54:10	dagm_z_SC_03_except_class4_FOLD_6 Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-30 00:54:10	dagm_z_SC_03_except_class4_FOLD_6 Returning dec_gradient_multiplier 1
+2022-09-30 00:54:16	dagm_z_SC_03_except_class4_FOLD_6 Epoch 6/25 ==> avg_loss_seg=0.44918, avg_loss_seg_pos=0.10779, avg_loss_dec=0.03025, avg_loss=0.47943, FP=0, FN=0, correct=160/160, in 5.51s/epoch
+2022-09-30 00:54:16	dagm_z_SC_03_except_class4_FOLD_6 Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-30 00:54:16	dagm_z_SC_03_except_class4_FOLD_6 Returning dec_gradient_multiplier 1
+2022-09-30 00:54:22	dagm_z_SC_03_except_class4_FOLD_6 Epoch 7/25 ==> avg_loss_seg=0.41387, avg_loss_seg_pos=0.10103, avg_loss_dec=0.02020, avg_loss=0.43408, FP=0, FN=0, correct=160/160, in 5.51s/epoch
+2022-09-30 00:54:28	dagm_z_SC_03_except_class4_FOLD_6 VALIDATION || AUC=1.000000, and AP=1.000000, with best thr=0.989646 at f-measure=1.000 and FP=0, FN=0, TOTAL SAMPLES=575, avg_loss_seg_neg=0.39720, avg_loss_seg_pos=0.39933
+2022-09-30 00:54:28	dagm_z_SC_03_except_class4_FOLD_6 Saving current models state to ./results_new\DAGM\dagm_z_SC_03_except_class4\FOLD_6\models\ep_07.pth
+2022-09-30 00:54:28	dagm_z_SC_03_except_class4_FOLD_6 Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-30 00:54:28	dagm_z_SC_03_except_class4_FOLD_6 Returning dec_gradient_multiplier 1
+2022-09-30 00:54:33	dagm_z_SC_03_except_class4_FOLD_6 Epoch 8/25 ==> avg_loss_seg=0.38635, avg_loss_seg_pos=0.10389, avg_loss_dec=0.37404, avg_loss=0.76039, FP=8, FN=8, correct=144/160, in 5.52s/epoch
+2022-09-30 00:54:33	dagm_z_SC_03_except_class4_FOLD_6 Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-30 00:54:33	dagm_z_SC_03_except_class4_FOLD_6 Returning dec_gradient_multiplier 1
+2022-09-30 00:54:39	dagm_z_SC_03_except_class4_FOLD_6 Epoch 9/25 ==> avg_loss_seg=0.35746, avg_loss_seg_pos=0.08979, avg_loss_dec=0.06937, avg_loss=0.42683, FP=1, FN=2, correct=157/160, in 5.52s/epoch
+2022-09-30 00:54:39	dagm_z_SC_03_except_class4_FOLD_6 Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-30 00:54:39	dagm_z_SC_03_except_class4_FOLD_6 Returning dec_gradient_multiplier 1
+2022-09-30 00:54:45	dagm_z_SC_03_except_class4_FOLD_6 Epoch 10/25 ==> avg_loss_seg=0.33369, avg_loss_seg_pos=0.08248, avg_loss_dec=0.03041, avg_loss=0.36410, FP=0, FN=1, correct=159/160, in 5.53s/epoch
+2022-09-30 00:54:51	dagm_z_SC_03_except_class4_FOLD_6 VALIDATION || AUC=1.000000, and AP=1.000000, with best thr=0.983904 at f-measure=1.000 and FP=0, FN=0, TOTAL SAMPLES=575, avg_loss_seg_neg=0.32234, avg_loss_seg_pos=0.32074
+2022-09-30 00:54:51	dagm_z_SC_03_except_class4_FOLD_6 Saving current models state to ./results_new\DAGM\dagm_z_SC_03_except_class4\FOLD_6\models\ep_10.pth
+2022-09-30 00:54:51	dagm_z_SC_03_except_class4_FOLD_6 Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-30 00:54:51	dagm_z_SC_03_except_class4_FOLD_6 Returning dec_gradient_multiplier 1
+2022-09-30 00:54:56	dagm_z_SC_03_except_class4_FOLD_6 Epoch 11/25 ==> avg_loss_seg=0.31239, avg_loss_seg_pos=0.08149, avg_loss_dec=0.02316, avg_loss=0.33555, FP=0, FN=1, correct=159/160, in 5.54s/epoch
+2022-09-30 00:54:56	dagm_z_SC_03_except_class4_FOLD_6 Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-30 00:54:56	dagm_z_SC_03_except_class4_FOLD_6 Returning dec_gradient_multiplier 1
+2022-09-30 00:55:02	dagm_z_SC_03_except_class4_FOLD_6 Epoch 12/25 ==> avg_loss_seg=0.29299, avg_loss_seg_pos=0.07811, avg_loss_dec=0.00929, avg_loss=0.30229, FP=0, FN=0, correct=160/160, in 5.54s/epoch
+2022-09-30 00:55:02	dagm_z_SC_03_except_class4_FOLD_6 Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-30 00:55:02	dagm_z_SC_03_except_class4_FOLD_6 Returning dec_gradient_multiplier 1
+2022-09-30 00:55:08	dagm_z_SC_03_except_class4_FOLD_6 Epoch 13/25 ==> avg_loss_seg=0.27544, avg_loss_seg_pos=0.07594, avg_loss_dec=0.00655, avg_loss=0.28199, FP=0, FN=0, correct=160/160, in 5.54s/epoch
+2022-09-30 00:55:14	dagm_z_SC_03_except_class4_FOLD_6 VALIDATION || AUC=1.000000, and AP=1.000000, with best thr=0.983058 at f-measure=1.000 and FP=0, FN=0, TOTAL SAMPLES=575, avg_loss_seg_neg=0.26691, avg_loss_seg_pos=0.29728
+2022-09-30 00:55:14	dagm_z_SC_03_except_class4_FOLD_6 Saving current models state to ./results_new\DAGM\dagm_z_SC_03_except_class4\FOLD_6\models\ep_13.pth
+2022-09-30 00:55:14	dagm_z_SC_03_except_class4_FOLD_6 Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-30 00:55:14	dagm_z_SC_03_except_class4_FOLD_6 Returning dec_gradient_multiplier 1
+2022-09-30 00:55:20	dagm_z_SC_03_except_class4_FOLD_6 Epoch 14/25 ==> avg_loss_seg=0.25980, avg_loss_seg_pos=0.07292, avg_loss_dec=0.00782, avg_loss=0.26762, FP=0, FN=0, correct=160/160, in 5.54s/epoch
+2022-09-30 00:55:20	dagm_z_SC_03_except_class4_FOLD_6 Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-30 00:55:20	dagm_z_SC_03_except_class4_FOLD_6 Returning dec_gradient_multiplier 1
+2022-09-30 00:55:25	dagm_z_SC_03_except_class4_FOLD_6 Epoch 15/25 ==> avg_loss_seg=0.24561, avg_loss_seg_pos=0.07125, avg_loss_dec=0.00700, avg_loss=0.25261, FP=0, FN=0, correct=160/160, in 5.54s/epoch
+2022-09-30 00:55:25	dagm_z_SC_03_except_class4_FOLD_6 Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-30 00:55:25	dagm_z_SC_03_except_class4_FOLD_6 Returning dec_gradient_multiplier 1
+2022-09-30 00:55:31	dagm_z_SC_03_except_class4_FOLD_6 Epoch 16/25 ==> avg_loss_seg=0.23276, avg_loss_seg_pos=0.06974, avg_loss_dec=0.00854, avg_loss=0.24130, FP=0, FN=0, correct=160/160, in 5.54s/epoch
+2022-09-30 00:55:37	dagm_z_SC_03_except_class4_FOLD_6 VALIDATION || AUC=1.000000, and AP=1.000000, with best thr=0.999309 at f-measure=1.000 and FP=0, FN=0, TOTAL SAMPLES=575, avg_loss_seg_neg=0.22658, avg_loss_seg_pos=0.27324
+2022-09-30 00:55:37	dagm_z_SC_03_except_class4_FOLD_6 Saving current models state to ./results_new\DAGM\dagm_z_SC_03_except_class4\FOLD_6\models\ep_16.pth
+2022-09-30 00:55:37	dagm_z_SC_03_except_class4_FOLD_6 Saving current models state to ./results_new\DAGM\dagm_z_SC_03_except_class4\FOLD_6\models\best_state_dict.pth
+2022-09-30 00:55:37	dagm_z_SC_03_except_class4_FOLD_6 Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-30 00:55:37	dagm_z_SC_03_except_class4_FOLD_6 Returning dec_gradient_multiplier 1
+2022-09-30 00:55:43	dagm_z_SC_03_except_class4_FOLD_6 Epoch 17/25 ==> avg_loss_seg=0.22177, avg_loss_seg_pos=0.07040, avg_loss_dec=0.03557, avg_loss=0.25734, FP=0, FN=2, correct=158/160, in 5.54s/epoch
+2022-09-30 00:55:43	dagm_z_SC_03_except_class4_FOLD_6 Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-30 00:55:43	dagm_z_SC_03_except_class4_FOLD_6 Returning dec_gradient_multiplier 1
+2022-09-30 00:55:48	dagm_z_SC_03_except_class4_FOLD_6 Epoch 18/25 ==> avg_loss_seg=0.21110, avg_loss_seg_pos=0.06514, avg_loss_dec=0.01959, avg_loss=0.23069, FP=0, FN=1, correct=159/160, in 5.55s/epoch
+2022-09-30 00:55:48	dagm_z_SC_03_except_class4_FOLD_6 Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-30 00:55:48	dagm_z_SC_03_except_class4_FOLD_6 Returning dec_gradient_multiplier 1
+2022-09-30 00:55:54	dagm_z_SC_03_except_class4_FOLD_6 Epoch 19/25 ==> avg_loss_seg=0.20096, avg_loss_seg_pos=0.06499, avg_loss_dec=0.00391, avg_loss=0.20487, FP=0, FN=0, correct=160/160, in 5.55s/epoch
+2022-09-30 00:56:00	dagm_z_SC_03_except_class4_FOLD_6 VALIDATION || AUC=1.000000, and AP=1.000000, with best thr=0.995706 at f-measure=1.000 and FP=0, FN=0, TOTAL SAMPLES=575, avg_loss_seg_neg=0.19599, avg_loss_seg_pos=0.26118
+2022-09-30 00:56:00	dagm_z_SC_03_except_class4_FOLD_6 Saving current models state to ./results_new\DAGM\dagm_z_SC_03_except_class4\FOLD_6\models\ep_19.pth
+2022-09-30 00:56:00	dagm_z_SC_03_except_class4_FOLD_6 Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-30 00:56:00	dagm_z_SC_03_except_class4_FOLD_6 Returning dec_gradient_multiplier 1
+2022-09-30 00:56:06	dagm_z_SC_03_except_class4_FOLD_6 Epoch 20/25 ==> avg_loss_seg=0.19180, avg_loss_seg_pos=0.06387, avg_loss_dec=0.00541, avg_loss=0.19721, FP=0, FN=0, correct=160/160, in 5.55s/epoch
+2022-09-30 00:56:06	dagm_z_SC_03_except_class4_FOLD_6 Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-30 00:56:06	dagm_z_SC_03_except_class4_FOLD_6 Returning dec_gradient_multiplier 1
+2022-09-30 00:56:12	dagm_z_SC_03_except_class4_FOLD_6 Epoch 21/25 ==> avg_loss_seg=0.18339, avg_loss_seg_pos=0.06398, avg_loss_dec=0.00364, avg_loss=0.18702, FP=0, FN=0, correct=160/160, in 5.55s/epoch
+2022-09-30 00:56:12	dagm_z_SC_03_except_class4_FOLD_6 Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-30 00:56:12	dagm_z_SC_03_except_class4_FOLD_6 Returning dec_gradient_multiplier 1
+2022-09-30 00:56:17	dagm_z_SC_03_except_class4_FOLD_6 Epoch 22/25 ==> avg_loss_seg=0.17564, avg_loss_seg_pos=0.06229, avg_loss_dec=0.00235, avg_loss=0.17799, FP=0, FN=0, correct=160/160, in 5.55s/epoch
+2022-09-30 00:56:23	dagm_z_SC_03_except_class4_FOLD_6 VALIDATION || AUC=1.000000, and AP=1.000000, with best thr=0.998343 at f-measure=1.000 and FP=0, FN=0, TOTAL SAMPLES=575, avg_loss_seg_neg=0.17180, avg_loss_seg_pos=0.24878
+2022-09-30 00:56:23	dagm_z_SC_03_except_class4_FOLD_6 Saving current models state to ./results_new\DAGM\dagm_z_SC_03_except_class4\FOLD_6\models\ep_22.pth
+2022-09-30 00:56:23	dagm_z_SC_03_except_class4_FOLD_6 Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-30 00:56:23	dagm_z_SC_03_except_class4_FOLD_6 Returning dec_gradient_multiplier 1
+2022-09-30 00:56:29	dagm_z_SC_03_except_class4_FOLD_6 Epoch 23/25 ==> avg_loss_seg=0.16848, avg_loss_seg_pos=0.06203, avg_loss_dec=0.00224, avg_loss=0.17072, FP=0, FN=0, correct=160/160, in 5.55s/epoch
+2022-09-30 00:56:29	dagm_z_SC_03_except_class4_FOLD_6 Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-30 00:56:29	dagm_z_SC_03_except_class4_FOLD_6 Returning dec_gradient_multiplier 1
+2022-09-30 00:56:35	dagm_z_SC_03_except_class4_FOLD_6 Epoch 24/25 ==> avg_loss_seg=0.16186, avg_loss_seg_pos=0.06157, avg_loss_dec=0.00276, avg_loss=0.16462, FP=0, FN=0, correct=160/160, in 5.55s/epoch
+2022-09-30 00:56:35	dagm_z_SC_03_except_class4_FOLD_6 Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-30 00:56:35	dagm_z_SC_03_except_class4_FOLD_6 Returning dec_gradient_multiplier 1
+2022-09-30 00:56:41	dagm_z_SC_03_except_class4_FOLD_6 Epoch 25/25 ==> avg_loss_seg=0.15574, avg_loss_seg_pos=0.06027, avg_loss_dec=0.00311, avg_loss=0.15885, FP=0, FN=0, correct=160/160, in 5.55s/epoch
+2022-09-30 00:56:46	dagm_z_SC_03_except_class4_FOLD_6 VALIDATION || AUC=1.000000, and AP=1.000000, with best thr=0.998823 at f-measure=1.000 and FP=0, FN=0, TOTAL SAMPLES=575, avg_loss_seg_neg=0.15269, avg_loss_seg_pos=0.24322
+2022-09-30 00:56:46	dagm_z_SC_03_except_class4_FOLD_6 Saving current models state to ./results_new\DAGM\dagm_z_SC_03_except_class4\FOLD_6\models\ep_25.pth
+now best_AP=1.0000000000000002,epoch=16
+2022-09-30 00:56:47	dagm_z_SC_03_except_class4_FOLD_6 Saving current models state to ./results_new\DAGM\dagm_z_SC_03_except_class4\FOLD_6\models\final_state_dict.pth
+2022-09-30 00:56:47	dagm_z_SC_03_except_class4_FOLD_6 Keeping same model state
+dagm_z_SC_03_except_class4_FOLD_6 EVAL AUC=1.000000, and AP=1.000000, w/ best thr=0.998823 at f-m=1.000 and FP=0, FN=0
+run_time 8.0min	
