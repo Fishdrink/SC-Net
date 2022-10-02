@@ -1,0 +1,171 @@
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open Executing run with path ./results_new\KSDD2\ksdd2_z_new_SC_00_grandient_open
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open AREA_RATIO_MIN            : 0.9
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open BATCH_SIZE                : 12
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open CONTINUE_LAST_TRAIN       : None
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open DATASET                   : KSDD2
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open DATASET_PATH              : ./datasets/KSDD2/
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open DELTA_CLS_LOSS            : 1.0
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open DILATE                    : 15
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open DROPOUT_P                 : 0.0
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open DYN_BALANCED_LOSS         : False
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open EPOCHS                    : 31
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open FOLD                      : None
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open FREQUENCY_SAMPLING        : True
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open GPU                       : 0
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open GRADIENT_ADJUSTMENT       : True
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open INPUT_CHANNELS            : 3
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open INPUT_HEIGHT              : 640
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open INPUT_WIDTH               : 232
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open LEARNING_RATE             : 0.06
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open LOSS_SEG_THR              : 0.02
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open MEMORY_FIT                : 12
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open MODEL_NAME                : models_z_new_SC_00
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open NUM_SEGMENTED             : 0
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open ON_DEMAND_READ            : False
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open OPTIMIZER                 : SGD
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open REPRODUCIBLE_RUN          : True
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open RESULTS_PATH              : ./results_new
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open SAMPLING                  : half_mixed
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open SAVE_IMAGES               : True
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open TRAIN_NUM                 : -1
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open TRANS_BRIGHT              : 1.0
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open TRANS_KEEP_LOOP           : 1
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open TRANS_NUM                 : 4
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open USE_BEST_MODEL            : False
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open VALIDATE                  : True
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open VALIDATE_ON_TEST          : True
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open VALIDATION_N_EPOCHS       : 3
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open VOLUME_CFG                : None
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open WEIGHTED_SEG_LOSS         : False
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open WEIGHTED_SEG_LOSS_MAX     : 3.0
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open WEIGHTED_SEG_LOSS_P       : 2.0
+2022-09-18 16:29:48	ksdd2_z_new_SC_00_grandient_open Reproducible run, fixing all seeds to:1337
+This is models_z_new_SC_00
+2022-09-18 16:30:35	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:30:35	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:31:09	ksdd2_z_new_SC_00_grandient_open Epoch 1/31 ==> avg_loss_seg=0.65164, avg_loss_seg_pos=0.11029, avg_loss_dec=0.52667, avg_loss=1.17831, FP=33, FN=77, correct=382/492, in 33.65s/epoch
+2022-09-18 16:31:36	ksdd2_z_new_SC_00_grandient_open VALIDATION || AUC=0.901302, and AP=0.712801, with best thr=0.643316 at f-measure=0.644 and FP=69, FN=25, TOTAL SAMPLES=1004, avg_loss_seg_neg=0.54669, avg_loss_seg_pos=0.55637
+2022-09-18 16:31:36	ksdd2_z_new_SC_00_grandient_open Saving current models state to ./results_new\KSDD2\ksdd2_z_new_SC_00_grandient_open\models\ep_01.pth
+2022-09-18 16:31:36	ksdd2_z_new_SC_00_grandient_open Saving current models state to ./results_new\KSDD2\ksdd2_z_new_SC_00_grandient_open\models\best_state_dict.pth
+2022-09-18 16:31:36	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:31:36	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:32:09	ksdd2_z_new_SC_00_grandient_open Epoch 2/31 ==> avg_loss_seg=0.48154, avg_loss_seg_pos=0.08438, avg_loss_dec=0.36170, avg_loss=0.84324, FP=21, FN=50, correct=421/492, in 32.31s/epoch
+2022-09-18 16:32:09	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:32:09	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:32:42	ksdd2_z_new_SC_00_grandient_open Epoch 3/31 ==> avg_loss_seg=0.37437, avg_loss_seg_pos=0.06927, avg_loss_dec=0.33263, avg_loss=0.70700, FP=28, FN=45, correct=419/492, in 32.49s/epoch
+2022-09-18 16:32:42	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:32:42	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:33:15	ksdd2_z_new_SC_00_grandient_open Epoch 4/31 ==> avg_loss_seg=0.30222, avg_loss_seg_pos=0.05920, avg_loss_dec=0.32999, avg_loss=0.63220, FP=31, FN=40, correct=421/492, in 32.44s/epoch
+2022-09-18 16:33:41	ksdd2_z_new_SC_00_grandient_open VALIDATION || AUC=0.913850, and AP=0.725665, with best thr=0.598167 at f-measure=0.654 and FP=34, FN=40, TOTAL SAMPLES=1004, avg_loss_seg_neg=0.27349, avg_loss_seg_pos=0.33558
+2022-09-18 16:33:41	ksdd2_z_new_SC_00_grandient_open Saving current models state to ./results_new\KSDD2\ksdd2_z_new_SC_00_grandient_open\models\ep_04.pth
+2022-09-18 16:33:41	ksdd2_z_new_SC_00_grandient_open Saving current models state to ./results_new\KSDD2\ksdd2_z_new_SC_00_grandient_open\models\best_state_dict.pth
+2022-09-18 16:33:41	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:33:41	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:34:14	ksdd2_z_new_SC_00_grandient_open Epoch 5/31 ==> avg_loss_seg=0.25137, avg_loss_seg_pos=0.05203, avg_loss_dec=0.28565, avg_loss=0.53702, FP=24, FN=34, correct=434/492, in 32.49s/epoch
+2022-09-18 16:34:14	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:34:14	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:34:47	ksdd2_z_new_SC_00_grandient_open Epoch 6/31 ==> avg_loss_seg=0.21408, avg_loss_seg_pos=0.04703, avg_loss_dec=0.23929, avg_loss=0.45337, FP=19, FN=29, correct=444/492, in 32.57s/epoch
+2022-09-18 16:34:47	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:34:47	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:35:20	ksdd2_z_new_SC_00_grandient_open Epoch 7/31 ==> avg_loss_seg=0.18574, avg_loss_seg_pos=0.04334, avg_loss_dec=0.26190, avg_loss=0.44764, FP=22, FN=35, correct=435/492, in 32.62s/epoch
+2022-09-18 16:35:46	ksdd2_z_new_SC_00_grandient_open VALIDATION || AUC=0.909396, and AP=0.747572, with best thr=0.951112 at f-measure=0.680 and FP=24, FN=41, TOTAL SAMPLES=1004, avg_loss_seg_neg=0.17340, avg_loss_seg_pos=0.26084
+2022-09-18 16:35:46	ksdd2_z_new_SC_00_grandient_open Saving current models state to ./results_new\KSDD2\ksdd2_z_new_SC_00_grandient_open\models\ep_07.pth
+2022-09-18 16:35:46	ksdd2_z_new_SC_00_grandient_open Saving current models state to ./results_new\KSDD2\ksdd2_z_new_SC_00_grandient_open\models\best_state_dict.pth
+2022-09-18 16:35:47	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:35:47	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:36:20	ksdd2_z_new_SC_00_grandient_open Epoch 8/31 ==> avg_loss_seg=0.16350, avg_loss_seg_pos=0.04061, avg_loss_dec=0.21551, avg_loss=0.37901, FP=21, FN=22, correct=449/492, in 32.91s/epoch
+2022-09-18 16:36:20	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:36:20	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:36:53	ksdd2_z_new_SC_00_grandient_open Epoch 9/31 ==> avg_loss_seg=0.14577, avg_loss_seg_pos=0.03864, avg_loss_dec=0.16532, avg_loss=0.31109, FP=13, FN=13, correct=466/492, in 32.72s/epoch
+2022-09-18 16:36:53	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:36:53	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:37:27	ksdd2_z_new_SC_00_grandient_open Epoch 10/31 ==> avg_loss_seg=0.13122, avg_loss_seg_pos=0.03679, avg_loss_dec=0.14852, avg_loss=0.27974, FP=14, FN=13, correct=465/492, in 32.69s/epoch
+2022-09-18 16:37:53	ksdd2_z_new_SC_00_grandient_open VALIDATION || AUC=0.914785, and AP=0.778644, with best thr=0.715035 at f-measure=0.720 and FP=18, FN=38, TOTAL SAMPLES=1004, avg_loss_seg_neg=0.12463, avg_loss_seg_pos=0.22749
+2022-09-18 16:37:53	ksdd2_z_new_SC_00_grandient_open Saving current models state to ./results_new\KSDD2\ksdd2_z_new_SC_00_grandient_open\models\ep_10.pth
+2022-09-18 16:37:53	ksdd2_z_new_SC_00_grandient_open Saving current models state to ./results_new\KSDD2\ksdd2_z_new_SC_00_grandient_open\models\best_state_dict.pth
+2022-09-18 16:37:53	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:37:53	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:38:26	ksdd2_z_new_SC_00_grandient_open Epoch 11/31 ==> avg_loss_seg=0.11915, avg_loss_seg_pos=0.03552, avg_loss_dec=0.11723, avg_loss=0.23637, FP=11, FN=7, correct=474/492, in 32.62s/epoch
+2022-09-18 16:38:26	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:38:26	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:39:00	ksdd2_z_new_SC_00_grandient_open Epoch 12/31 ==> avg_loss_seg=0.10905, avg_loss_seg_pos=0.03454, avg_loss_dec=0.18416, avg_loss=0.29320, FP=18, FN=15, correct=459/492, in 32.64s/epoch
+2022-09-18 16:39:00	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:39:00	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:39:33	ksdd2_z_new_SC_00_grandient_open Epoch 13/31 ==> avg_loss_seg=0.10044, avg_loss_seg_pos=0.03372, avg_loss_dec=0.06822, avg_loss=0.16866, FP=4, FN=1, correct=487/492, in 32.65s/epoch
+2022-09-18 16:39:59	ksdd2_z_new_SC_00_grandient_open VALIDATION || AUC=0.923785, and AP=0.787620, with best thr=0.329255 at f-measure=0.757 and FP=18, FN=32, TOTAL SAMPLES=1004, avg_loss_seg_neg=0.09649, avg_loss_seg_pos=0.21025
+2022-09-18 16:39:59	ksdd2_z_new_SC_00_grandient_open Saving current models state to ./results_new\KSDD2\ksdd2_z_new_SC_00_grandient_open\models\ep_13.pth
+2022-09-18 16:39:59	ksdd2_z_new_SC_00_grandient_open Saving current models state to ./results_new\KSDD2\ksdd2_z_new_SC_00_grandient_open\models\best_state_dict.pth
+2022-09-18 16:39:59	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:39:59	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:40:32	ksdd2_z_new_SC_00_grandient_open Epoch 14/31 ==> avg_loss_seg=0.09307, avg_loss_seg_pos=0.03305, avg_loss_dec=0.15279, avg_loss=0.24586, FP=16, FN=13, correct=463/492, in 32.61s/epoch
+2022-09-18 16:40:32	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:40:32	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:41:05	ksdd2_z_new_SC_00_grandient_open Epoch 15/31 ==> avg_loss_seg=0.08665, avg_loss_seg_pos=0.03248, avg_loss_dec=0.11312, avg_loss=0.19977, FP=12, FN=9, correct=471/492, in 32.61s/epoch
+2022-09-18 16:41:05	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:41:05	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:41:39	ksdd2_z_new_SC_00_grandient_open Epoch 16/31 ==> avg_loss_seg=0.08105, avg_loss_seg_pos=0.03208, avg_loss_dec=0.10621, avg_loss=0.18726, FP=8, FN=6, correct=478/492, in 32.67s/epoch
+2022-09-18 16:42:05	ksdd2_z_new_SC_00_grandient_open VALIDATION || AUC=0.914135, and AP=0.765269, with best thr=0.918808 at f-measure=0.719 and FP=13, FN=41, TOTAL SAMPLES=1004, avg_loss_seg_neg=0.07840, avg_loss_seg_pos=0.20211
+2022-09-18 16:42:05	ksdd2_z_new_SC_00_grandient_open Saving current models state to ./results_new\KSDD2\ksdd2_z_new_SC_00_grandient_open\models\ep_16.pth
+2022-09-18 16:42:05	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:42:05	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:42:38	ksdd2_z_new_SC_00_grandient_open Epoch 17/31 ==> avg_loss_seg=0.07609, avg_loss_seg_pos=0.03166, avg_loss_dec=0.06779, avg_loss=0.14388, FP=7, FN=4, correct=481/492, in 32.63s/epoch
+2022-09-18 16:42:38	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:42:38	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:43:11	ksdd2_z_new_SC_00_grandient_open Epoch 18/31 ==> avg_loss_seg=0.07167, avg_loss_seg_pos=0.03133, avg_loss_dec=0.02555, avg_loss=0.09723, FP=2, FN=0, correct=490/492, in 32.60s/epoch
+2022-09-18 16:43:11	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:43:11	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:43:44	ksdd2_z_new_SC_00_grandient_open Epoch 19/31 ==> avg_loss_seg=0.06774, avg_loss_seg_pos=0.03109, avg_loss_dec=0.01947, avg_loss=0.08721, FP=0, FN=1, correct=491/492, in 32.64s/epoch
+2022-09-18 16:44:10	ksdd2_z_new_SC_00_grandient_open VALIDATION || AUC=0.928981, and AP=0.804517, with best thr=0.700384 at f-measure=0.740 and FP=21, FN=33, TOTAL SAMPLES=1004, avg_loss_seg_neg=0.06587, avg_loss_seg_pos=0.19804
+2022-09-18 16:44:10	ksdd2_z_new_SC_00_grandient_open Saving current models state to ./results_new\KSDD2\ksdd2_z_new_SC_00_grandient_open\models\ep_19.pth
+2022-09-18 16:44:11	ksdd2_z_new_SC_00_grandient_open Saving current models state to ./results_new\KSDD2\ksdd2_z_new_SC_00_grandient_open\models\best_state_dict.pth
+2022-09-18 16:44:11	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:44:11	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:44:44	ksdd2_z_new_SC_00_grandient_open Epoch 20/31 ==> avg_loss_seg=0.06419, avg_loss_seg_pos=0.03088, avg_loss_dec=0.03384, avg_loss=0.09803, FP=3, FN=2, correct=487/492, in 32.61s/epoch
+2022-09-18 16:44:44	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:44:44	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:45:17	ksdd2_z_new_SC_00_grandient_open Epoch 21/31 ==> avg_loss_seg=0.06101, avg_loss_seg_pos=0.03067, avg_loss_dec=0.05989, avg_loss=0.12090, FP=6, FN=2, correct=484/492, in 32.64s/epoch
+2022-09-18 16:45:17	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:45:17	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:45:50	ksdd2_z_new_SC_00_grandient_open Epoch 22/31 ==> avg_loss_seg=0.05812, avg_loss_seg_pos=0.03051, avg_loss_dec=0.01396, avg_loss=0.07207, FP=0, FN=0, correct=492/492, in 32.60s/epoch
+2022-09-18 16:46:16	ksdd2_z_new_SC_00_grandient_open VALIDATION || AUC=0.930740, and AP=0.814533, with best thr=0.534419 at f-measure=0.752 and FP=21, FN=31, TOTAL SAMPLES=1004, avg_loss_seg_neg=0.05672, avg_loss_seg_pos=0.19615
+2022-09-18 16:46:16	ksdd2_z_new_SC_00_grandient_open Saving current models state to ./results_new\KSDD2\ksdd2_z_new_SC_00_grandient_open\models\ep_22.pth
+2022-09-18 16:46:16	ksdd2_z_new_SC_00_grandient_open Saving current models state to ./results_new\KSDD2\ksdd2_z_new_SC_00_grandient_open\models\best_state_dict.pth
+2022-09-18 16:46:17	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:46:17	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:46:50	ksdd2_z_new_SC_00_grandient_open Epoch 23/31 ==> avg_loss_seg=0.05546, avg_loss_seg_pos=0.03041, avg_loss_dec=0.01119, avg_loss=0.06665, FP=0, FN=0, correct=492/492, in 32.61s/epoch
+2022-09-18 16:46:50	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:46:50	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:47:23	ksdd2_z_new_SC_00_grandient_open Epoch 24/31 ==> avg_loss_seg=0.05305, avg_loss_seg_pos=0.03031, avg_loss_dec=0.21848, avg_loss=0.27153, FP=24, FN=18, correct=450/492, in 32.65s/epoch
+2022-09-18 16:47:23	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:47:23	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:47:56	ksdd2_z_new_SC_00_grandient_open Epoch 25/31 ==> avg_loss_seg=0.05083, avg_loss_seg_pos=0.03025, avg_loss_dec=0.03795, avg_loss=0.08877, FP=2, FN=2, correct=488/492, in 32.63s/epoch
+2022-09-18 16:48:22	ksdd2_z_new_SC_00_grandient_open VALIDATION || AUC=0.924639, and AP=0.783972, with best thr=0.724424 at f-measure=0.739 and FP=18, FN=35, TOTAL SAMPLES=1004, avg_loss_seg_neg=0.04975, avg_loss_seg_pos=0.19528
+2022-09-18 16:48:22	ksdd2_z_new_SC_00_grandient_open Saving current models state to ./results_new\KSDD2\ksdd2_z_new_SC_00_grandient_open\models\ep_25.pth
+2022-09-18 16:48:22	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:48:22	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:48:56	ksdd2_z_new_SC_00_grandient_open Epoch 26/31 ==> avg_loss_seg=0.04878, avg_loss_seg_pos=0.03021, avg_loss_dec=0.02125, avg_loss=0.07003, FP=1, FN=0, correct=491/492, in 32.62s/epoch
+2022-09-18 16:48:56	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:48:56	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:49:29	ksdd2_z_new_SC_00_grandient_open Epoch 27/31 ==> avg_loss_seg=0.04689, avg_loss_seg_pos=0.03015, avg_loss_dec=0.00680, avg_loss=0.05369, FP=0, FN=0, correct=492/492, in 32.63s/epoch
+2022-09-18 16:49:29	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:49:29	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:50:02	ksdd2_z_new_SC_00_grandient_open Epoch 28/31 ==> avg_loss_seg=0.04513, avg_loss_seg_pos=0.03012, avg_loss_dec=0.00694, avg_loss=0.05206, FP=0, FN=0, correct=492/492, in 32.65s/epoch
+2022-09-18 16:50:28	ksdd2_z_new_SC_00_grandient_open VALIDATION || AUC=0.935316, and AP=0.814006, with best thr=0.789744 at f-measure=0.760 and FP=14, FN=34, TOTAL SAMPLES=1004, avg_loss_seg_neg=0.04428, avg_loss_seg_pos=0.19437
+2022-09-18 16:50:28	ksdd2_z_new_SC_00_grandient_open Saving current models state to ./results_new\KSDD2\ksdd2_z_new_SC_00_grandient_open\models\ep_28.pth
+2022-09-18 16:50:28	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:50:28	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:51:01	ksdd2_z_new_SC_00_grandient_open Epoch 29/31 ==> avg_loss_seg=0.04350, avg_loss_seg_pos=0.03013, avg_loss_dec=0.03630, avg_loss=0.07981, FP=3, FN=1, correct=488/492, in 32.62s/epoch
+2022-09-18 16:51:01	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:51:01	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:51:35	ksdd2_z_new_SC_00_grandient_open Epoch 30/31 ==> avg_loss_seg=0.04199, avg_loss_seg_pos=0.03013, avg_loss_dec=0.00968, avg_loss=0.05166, FP=0, FN=0, correct=492/492, in 32.63s/epoch
+2022-09-18 16:51:35	ksdd2_z_new_SC_00_grandient_open Returning seg_loss_weight 1 and dec_loss_weight 1.0
+2022-09-18 16:51:35	ksdd2_z_new_SC_00_grandient_open Returning dec_gradient_multiplier 0
+2022-09-18 16:52:08	ksdd2_z_new_SC_00_grandient_open Epoch 31/31 ==> avg_loss_seg=0.04057, avg_loss_seg_pos=0.03008, avg_loss_dec=0.00480, avg_loss=0.04536, FP=0, FN=0, correct=492/492, in 32.62s/epoch
+2022-09-18 16:52:34	ksdd2_z_new_SC_00_grandient_open VALIDATION || AUC=0.934421, and AP=0.815310, with best thr=0.704967 at f-measure=0.759 and FP=11, FN=36, TOTAL SAMPLES=1004, avg_loss_seg_neg=0.03988, avg_loss_seg_pos=0.19501
+2022-09-18 16:52:34	ksdd2_z_new_SC_00_grandient_open Saving current models state to ./results_new\KSDD2\ksdd2_z_new_SC_00_grandient_open\models\ep_31.pth
+2022-09-18 16:52:34	ksdd2_z_new_SC_00_grandient_open Saving current models state to ./results_new\KSDD2\ksdd2_z_new_SC_00_grandient_open\models\best_state_dict.pth
+now best_AP=0.8153098850990695,epoch=31
+2022-09-18 16:52:34	ksdd2_z_new_SC_00_grandient_open Saving current models state to ./results_new\KSDD2\ksdd2_z_new_SC_00_grandient_open\models\final_state_dict.pth
+2022-09-18 16:52:34	ksdd2_z_new_SC_00_grandient_open Keeping same model state
+ksdd2_z_new_SC_00_grandient_open EVAL AUC=0.934421, and AP=0.815310, w/ best thr=0.704967 at f-m=0.759 and FP=11, FN=36
+run_time 31.0min	
